@@ -9,7 +9,7 @@ st.markdown("### Real-Time Asset Performance Portal")
 
 @st.cache_data
 def load_and_calculate_health():
-    df = pd.read_csv('https://filebin.net/xcpaw6pov81w31j1/Crane_Health_Data.csv')
+    df = pd.read_csv('test_data.csv')
     df['Timestamp'] = pd.to_datetime(df['Timestamp'])
     
     def get_sub_score(val, normal, warning, critical):
