@@ -1,0 +1,5 @@
+Timestamp,Crane_ID,Vibration_X,Vibration_Y,Motor_Temp,Bearing_Temp,Hydraulic_Pressure
+2026-06-18 00:00:00,CRANE_01,1.2,1.4,65.0,70.0,150.0
+2026-06-18 01:00:00,CRANE_01,1.5,1.6,68.0,72.0,155.0
+2026-06-18 00:00:00,CRANE_05,5.8,6.2,89.0,94.0,110.0
+2026-06-18 01:00:00,CRANE_05,6.1,6.5,91.0,96.0,105.0
